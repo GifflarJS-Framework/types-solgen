@@ -1,5 +1,5 @@
 import { IContent } from "../../content/types/IContent";
-import { ITypeName } from "modules/types/ITypeName";
+import { ITypeName } from "../../../../types/ITypeName";
 import { IFunctionJson } from "./IFunctionJson";
 export interface IFunction extends IFunctionJson, IContent {
     json: () => IFunctionJson;

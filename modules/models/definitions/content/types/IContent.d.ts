@@ -1,10 +1,10 @@
 import { IInput } from "../../function/types/IInput";
 import { ICustomErrorcall } from "../../../statements/revert/types/ICustomErrorCall";
 import { ITryExpression } from "../../../statements/try/types/ITryExpression";
-import { IDataLocation } from "modules/types/IDataLocation";
-import { IMappingKeyType } from "modules/types/IMappingKeyType";
-import { IMappingTypeName } from "modules/types/IMappingTypeName";
-import { ITypeName } from "modules/types/ITypeName";
+import { IDataLocation } from "../../../../types/IDataLocation";
+import { IMappingKeyType } from "../../../../types/IMappingKeyType";
+import { IMappingTypeName } from "../../../../types/IMappingTypeName";
+import { ITypeName } from "../../../../types/ITypeName";
 import { IStackItem } from "./IStackItem";
 export interface IContent extends IStackItem {
     setAssert(condition: string): IContent;

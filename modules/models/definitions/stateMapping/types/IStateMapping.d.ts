@@ -1,6 +1,6 @@
-import { IMappingKeyType } from "modules/types/IMappingKeyType";
-import { IMappingTypeName } from "modules/types/IMappingTypeName";
-import { IVisibility } from "modules/types/IVisibility";
+import { IMappingKeyType } from "../../../../types/IMappingKeyType";
+import { IMappingTypeName } from "../../../../types/IMappingTypeName";
+import { IVisibility } from "../../../../types/IVisibility";
 export interface IStateMapping {
     type: IMappingKeyType;
     typeName: IMappingTypeName;

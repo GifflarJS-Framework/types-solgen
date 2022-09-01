@@ -1,5 +1,5 @@
 import { INewContract } from "../../newcontract/types/INewContract";
-import { IDataLocation } from "modules/types/IDataLocation";
+import { IDataLocation } from "../../../../types/IDataLocation";
 export interface ICreateVariableDTO {
     type: string;
     dataLocation?: IDataLocation;

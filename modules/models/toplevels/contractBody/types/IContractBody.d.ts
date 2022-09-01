@@ -11,10 +11,10 @@ import { IStruct } from "../../../definitions/struct/types/IStruct";
 import { IUsing } from "../../../definitions/using/types/IUsing";
 import { ICreateMappingDTO } from "../../../statements/mapping/types/ICreateMappingDTO";
 import { ICreateVariableDTO } from "../../../statements/variable/types/ICreateVariableDTO";
-import { IMappingKeyType } from "modules/types/IMappingKeyType";
-import { IMappingTypeName } from "modules/types/IMappingTypeName";
-import { ITypeName } from "modules/types/ITypeName";
-import { IVisibility } from "modules/types/IVisibility";
+import { IMappingKeyType } from "../../../../types/IMappingKeyType";
+import { IMappingTypeName } from "../../../../types/IMappingTypeName";
+import { ITypeName } from "../../../../types/ITypeName";
+import { IVisibility } from "../../../../types/IVisibility";
 import { IContractBodyItem } from "./IContractBodyItem";
 export interface IContractBody {
     body: IContractBodyItem;
