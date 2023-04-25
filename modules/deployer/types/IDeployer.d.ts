@@ -8,8 +8,9 @@ export interface IDeployer {
     setWeb3(newWeb3: IWeb3): IWeb3;
     getWeb3(): IWeb3 | undefined | null;
     setNetworkConfig(networkConfig: INetworkConfig): void;
-    createWeb3(networkConfig: INetworkConfig): IWeb3;
+    getNetworkConfig(): INetworkConfig | undefined;
+    createWeb3(): IWeb3;
     addSigner(accountPrivateKey: string): Account;
-    deploy(inputs: IDeployerInputs, accountPrivateKey?: string): Promise<Contract>;
+    deploy(inputs: IDeployerInputs): Promise<Contract>;
     retrieve(abi: AbiItem, address: string): Promise<Contract>;
 }
